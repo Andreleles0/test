@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+
+.navbar{
+    
+    padding: 10px 16px;
+    top: 0;
+    position:fixed;
+    width: 100%;
+    min-height: fit-content;
+    background-color: black;
+    text-align: center;
+}
+
+.navbar a {
+    padding: 10px 16px;
+    background-color: black;
+    font-size: 22px;
+    color: white;
+}
+
+.navbar :hover {
+    cursor: pointer;
+    height: fit-content;
+    background-color: gray;
+}
+
+.navbar :active:hover {
+    background-color: rgb(151, 151, 151);
+}
+
+.subnavbar {
+    padding: 10px 16px;
+    color: white;
+}
+
+.contacts-submenu {
+    display: none;
+}
+
+html { 
+    background-color: rgb(72, 72, 72);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .content {
+    margin: 20px;
+    color: white;
+  }
+
+  .content img{
+    width: 100%;
+    height: auto;
+  }
